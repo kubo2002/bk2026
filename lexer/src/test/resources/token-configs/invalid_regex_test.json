@@ -1,0 +1,23 @@
+[
+  {
+    "name": "GOOD_TOKEN",
+    "regex": "[0-9]+",
+    "priority": 1,
+    "skip": false,
+    "note": "Platný regex – toto pravidlo sa načíta v poriadku"
+  },
+  {
+    "name": "BAD_TOKEN",
+    "regex": "[neuzavreta-skupina",
+    "priority": 2,
+    "skip": false,
+    "note": "ÚMYSELNE NEPLATNÝ regex – pri kliknutí na Použiť pravidlá sa zobrazí chybová hláška"
+  },
+  {
+    "name": "ANOTHER_GOOD",
+    "regex": "[a-z]+",
+    "priority": 3,
+    "skip": false,
+    "note": "Platný regex"
+  }
+]

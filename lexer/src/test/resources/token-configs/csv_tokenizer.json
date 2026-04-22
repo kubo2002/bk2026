@@ -1,0 +1,30 @@
+[
+  {
+    "name": "QUOTED_STRING",
+    "regex": "\"[^\"]*\"",
+    "priority": 1,
+    "skip": false,
+    "note": "Hodnota v úvodzovkách, napr. \"hello world\" – priorita 1 pred PLAIN_VALUE"
+  },
+  {
+    "name": "PLAIN_VALUE",
+    "regex": "[^,\"\\r\\n]+",
+    "priority": 2,
+    "skip": false,
+    "note": "Hodnota bez špeciálnych znakov, napr. 42 alebo hello"
+  },
+  {
+    "name": "COMMA",
+    "regex": ",",
+    "priority": 10,
+    "skip": false,
+    "note": "Oddeľovač stĺpcov"
+  },
+  {
+    "name": "NEWLINE",
+    "regex": "\\r?\\n",
+    "priority": 20,
+    "skip": false,
+    "note": "Koniec riadku (nový záznam) – nevynechávame, používame na delenie riadkov"
+  }
+]

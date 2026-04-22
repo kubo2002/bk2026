@@ -1,0 +1,156 @@
+[
+  {
+    "name": "IDENTIFIER",
+    "regex": "[\\p{L}_][\\p{L}\\p{N}_]*",
+    "priority": 10,
+    "skip": false,
+    "note": "Identifikátory – Unicode písmená alebo _, potom písmená/číslice/_"
+  },
+  {
+    "name": "KEYWORD",
+    "regex": "(int|double|if|else|while|return)",
+    "priority": 5,
+    "skip": false,
+    "note": "Kľúčové slová – musia mať vyššiu prioritu ako IDENTIFIER"
+  },
+  {
+    "name": "DOUBLE_LITERAL",
+    "regex": "[0-9]+\\.[0-9]+",
+    "priority": 8,
+    "skip": false,
+    "note": "Desatinné čísla (musí byť pred INTEGER_LITERAL, inak 3.14 → 3 + .14)"
+  },
+  {
+    "name": "INTEGER_LITERAL",
+    "regex": "[0-9]+",
+    "priority": 9,
+    "skip": false,
+    "note": "Celé čísla"
+  },
+  {
+    "name": "EQUALS",
+    "regex": "==",
+    "priority": 20,
+    "skip": false,
+    "note": "Operátor rovnosti – pred ASSIGN, aby maximal-munch zvolil == nie ="
+  },
+  {
+    "name": "NOT_EQUALS",
+    "regex": "!=",
+    "priority": 21,
+    "skip": false,
+    "note": "Operátor nerovnosti"
+  },
+  {
+    "name": "LESS_OR_EQUAL",
+    "regex": "<=",
+    "priority": 22,
+    "skip": false,
+    "note": "Menší alebo rovný"
+  },
+  {
+    "name": "GREATER_OR_EQUAL",
+    "regex": ">=",
+    "priority": 23,
+    "skip": false,
+    "note": "Väčší alebo rovný"
+  },
+  {
+    "name": "ASSIGN",
+    "regex": "=",
+    "priority": 30,
+    "skip": false,
+    "note": "Priradenie"
+  },
+  {
+    "name": "PLUS",
+    "regex": "\\+",
+    "priority": 31,
+    "skip": false,
+    "note": "Operátor sčítania"
+  },
+  {
+    "name": "MINUS",
+    "regex": "-",
+    "priority": 32,
+    "skip": false,
+    "note": "Operátor odčítania"
+  },
+  {
+    "name": "STAR",
+    "regex": "\\*",
+    "priority": 33,
+    "skip": false,
+    "note": "Operátor násobenia"
+  },
+  {
+    "name": "SLASH",
+    "regex": "/",
+    "priority": 34,
+    "skip": false,
+    "note": "Operátor delenia"
+  },
+  {
+    "name": "LESS_THAN",
+    "regex": "<",
+    "priority": 35,
+    "skip": false,
+    "note": "Menší ako"
+  },
+  {
+    "name": "GREATER_THAN",
+    "regex": ">",
+    "priority": 36,
+    "skip": false,
+    "note": "Väčší ako"
+  },
+  {
+    "name": "LEFT_PAREN",
+    "regex": "\\(",
+    "priority": 40,
+    "skip": false,
+    "note": "Ľavá zátvoka"
+  },
+  {
+    "name": "RIGHT_PAREN",
+    "regex": "\\)",
+    "priority": 41,
+    "skip": false,
+    "note": "Pravá zátvoka"
+  },
+  {
+    "name": "LEFT_BRACE",
+    "regex": "\\{",
+    "priority": 42,
+    "skip": false,
+    "note": "Ľavá zložená zátvoka"
+  },
+  {
+    "name": "RIGHT_BRACE",
+    "regex": "\\}",
+    "priority": 43,
+    "skip": false,
+    "note": "Pravá zložená zátvoka"
+  },
+  {
+    "name": "SEMICOLON",
+    "regex": ";",
+    "priority": 44,
+    "skip": false,
+    "note": "Bodkočiarka"
+  },
+  {
+    "name": "COMMA",
+    "regex": ",",
+    "priority": 45,
+    "skip": false,
+    "note": "Čiarka"
+  },
+  {
+    "name": "WHITESPACE",
+    "regex": "[ \\t\\r\\n]+",
+    "priority": 99,
+    "skip": true,
+    "note": "Medzery a odriadkovanie – preskočiť (skip = true)"
+  }
+]

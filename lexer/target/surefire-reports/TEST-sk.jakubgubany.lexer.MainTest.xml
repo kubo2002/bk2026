@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sk.jakubgubany.lexer.MainTest" time="0.06" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\guban\Documents\Lexer\lexer\target\test-classes;C:\Users\guban\Documents\Lexer\lexer\target\classes;C:\Users\guban\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\guban\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\guban\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\guban\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\guban\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Bratislava"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="SK"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\guban\AppData\Local\Temp\surefire11157565019913093756\surefirebooter-20260414153839174_3.jar C:\Users\guban\AppData\Local\Temp\surefire11157565019913093756 2026-04-14T15-38-39_095-jvmRun1 surefire-20260414153839174_1tmp surefire_0-20260414153839174_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\guban\Documents\Lexer\lexer\target\test-classes;C:\Users\guban\Documents\Lexer\lexer\target\classes;C:\Users\guban\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2.jar;C:\Users\guban\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\guban\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\guban\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\guban\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\guban\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\guban\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\guban"/>
+    <property name="user.language" value="sk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\guban\Documents\Lexer\lexer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\guban\AppData\Local\Temp\surefire11157565019913093756\surefirebooter-20260414153839174_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="guban"/>
+    <property name="stdout.encoding" value="Cp1250"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\guban\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\guban\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\guban\Documents\Lexer\lexer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\guban\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\guban\bin;C:\Program Files\SqlCmd;C:\Program Files\Microsoft MPI\Bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\guban\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-23\bin;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn;D:\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Users\guban\.local\bin;C:\Users\guban\AppData\Local\Programs\Python\Launcher;C:\Users\guban\.config\herd-lite\bin;C:\Users\guban\AppData\Local\Microsoft\WindowsApps;C:\Users\guban\AppData\Local\gitkraken\bin;C:\Users\guban\.dotnet\tools;C:\Users\guban\AppData\Roaming\Composer\vendor\bin;C:\Users\guban\.dotnet\tools;C:\Users\guban\AppData\Roaming\npm;C:\Users\guban\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\guban\AppData\Local\Microsoft\WinGet\Packages\Anthropic.ClaudeCode_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\guban\AppData\Local\Microsoft\WinGet\Packages\JohnMacFarlane.Pandoc_Microsoft.Winget.Source_8wekyb3d8bbwe\pandoc-3.9.0.2;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="mainRunsWithoutErrors" classname="sk.jakubgubany.lexer.MainTest" time="0.05">
+    <system-out><![CDATA[====================================================
+
+Input:
+int a = 5;
+
+Tokens:
+  KEYWORD "int" line 1, column 1
+  IDENTIFIER "a" line 1, column 5
+  ASSIGN "=" line 1, column 7
+  INTEGER_LITERAL "5" line 1, column 9
+  SEMICOLON ";" line 1, column 10
+
+Errors:
+  (none)
+
+Trace (first 25 steps):
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Candidate match: KEYWORD -> 'int''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Candidate match: IDENTIFIER -> 'int''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Final token selected: KEYWORD -> 'int''}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='a', message='Candidate match: IDENTIFIER -> 'a''}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='a', message='Final token selected: IDENTIFIER -> 'a''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='=', message='Candidate match: ASSIGN -> '=''}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='=', message='Final token selected: ASSIGN -> '=''}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=8, line=1, column=9, char='5', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=8, line=1, column=9, char='5', lexeme='5', message='Candidate match: INTEGER_LITERAL -> '5''}
+  TraceStep{index=8, line=1, column=9, char='5', lexeme='5', message='Final token selected: INTEGER_LITERAL -> '5''}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme=';', message='Candidate match: SEMICOLON -> ';''}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme=';', message='Final token selected: SEMICOLON -> ';''}
+  ... (1 more steps)
+
+Input:
+double value = 12.5;
+
+Tokens:
+  KEYWORD "double" line 1, column 1
+  IDENTIFIER "value" line 1, column 8
+  ASSIGN "=" line 1, column 14
+  DOUBLE_LITERAL "12.5" line 1, column 16
+  SEMICOLON ";" line 1, column 20
+
+Errors:
+  (none)
+
+Trace (first 25 steps):
+  TraceStep{index=0, line=1, column=1, char='d', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=0, line=1, column=1, char='d', lexeme='double', message='Candidate match: KEYWORD -> 'double''}
+  TraceStep{index=0, line=1, column=1, char='d', lexeme='double', message='Candidate match: IDENTIFIER -> 'double''}
+  TraceStep{index=0, line=1, column=1, char='d', lexeme='double', message='Final token selected: KEYWORD -> 'double''}
+  TraceStep{index=6, line=1, column=7, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=6, line=1, column=7, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=6, line=1, column=7, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=7, line=1, column=8, char='v', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=7, line=1, column=8, char='v', lexeme='value', message='Candidate match: IDENTIFIER -> 'value''}
+  TraceStep{index=7, line=1, column=8, char='v', lexeme='value', message='Final token selected: IDENTIFIER -> 'value''}
+  TraceStep{index=12, line=1, column=13, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=12, line=1, column=13, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=12, line=1, column=13, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=13, line=1, column=14, char='=', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=13, line=1, column=14, char='=', lexeme='=', message='Candidate match: ASSIGN -> '=''}
+  TraceStep{index=13, line=1, column=14, char='=', lexeme='=', message='Final token selected: ASSIGN -> '=''}
+  TraceStep{index=14, line=1, column=15, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=14, line=1, column=15, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=14, line=1, column=15, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=15, line=1, column=16, char='1', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=15, line=1, column=16, char='1', lexeme='12.5', message='Candidate match: DOUBLE_LITERAL -> '12.5''}
+  TraceStep{index=15, line=1, column=16, char='1', lexeme='12', message='Candidate match: INTEGER_LITERAL -> '12''}
+  TraceStep{index=15, line=1, column=16, char='1', lexeme='12.5', message='Final token selected: DOUBLE_LITERAL -> '12.5''}
+  TraceStep{index=19, line=1, column=20, char=';', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=19, line=1, column=20, char=';', lexeme=';', message='Candidate match: SEMICOLON -> ';''}
+  ... (2 more steps)
+
+Input:
+if (a <= 10) {
+    return a;
+}
+
+Tokens:
+  KEYWORD "if" line 1, column 1
+  LEFT_PAREN "(" line 1, column 4
+  IDENTIFIER "a" line 1, column 5
+  LESS_OR_EQUAL "<=" line 1, column 7
+  INTEGER_LITERAL "10" line 1, column 10
+  RIGHT_PAREN ")" line 1, column 12
+  LEFT_BRACE "{" line 1, column 14
+  KEYWORD "return" line 2, column 5
+  IDENTIFIER "a" line 2, column 12
+  SEMICOLON ";" line 2, column 13
+  RIGHT_BRACE "}" line 3, column 1
+
+Errors:
+  (none)
+
+Trace (first 25 steps):
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='if', message='Candidate match: KEYWORD -> 'if''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='if', message='Candidate match: IDENTIFIER -> 'if''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='if', message='Final token selected: KEYWORD -> 'if''}
+  TraceStep{index=2, line=1, column=3, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=2, line=1, column=3, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=2, line=1, column=3, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=3, line=1, column=4, char='(', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=3, line=1, column=4, char='(', lexeme='(', message='Candidate match: LEFT_PAREN -> '(''}
+  TraceStep{index=3, line=1, column=4, char='(', lexeme='(', message='Final token selected: LEFT_PAREN -> '(''}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='a', message='Candidate match: IDENTIFIER -> 'a''}
+  TraceStep{index=4, line=1, column=5, char='a', lexeme='a', message='Final token selected: IDENTIFIER -> 'a''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=6, line=1, column=7, char='<', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=6, line=1, column=7, char='<', lexeme='<=', message='Candidate match: LESS_OR_EQUAL -> '<=''}
+  TraceStep{index=6, line=1, column=7, char='<', lexeme='<', message='Candidate match: LESS_THAN -> '<''}
+  TraceStep{index=6, line=1, column=7, char='<', lexeme='<=', message='Final token selected: LESS_OR_EQUAL -> '<=''}
+  TraceStep{index=8, line=1, column=9, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=8, line=1, column=9, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=8, line=1, column=9, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=9, line=1, column=10, char='1', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=9, line=1, column=10, char='1', lexeme='10', message='Candidate match: INTEGER_LITERAL -> '10''}
+  ... (33 more steps)
+
+Input:
+int x = @;
+
+Tokens:
+  KEYWORD "int" line 1, column 1
+  IDENTIFIER "x" line 1, column 5
+  ASSIGN "=" line 1, column 7
+  SEMICOLON ";" line 1, column 10
+
+Errors:
+  LexerError{message='Character '@' is not allowed by the language alphabet', line=1, column=9, fragment='@'}
+
+Trace (first 25 steps):
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Candidate match: KEYWORD -> 'int''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Candidate match: IDENTIFIER -> 'int''}
+  TraceStep{index=0, line=1, column=1, char='i', lexeme='int', message='Final token selected: KEYWORD -> 'int''}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=3, line=1, column=4, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=4, line=1, column=5, char='x', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=4, line=1, column=5, char='x', lexeme='x', message='Candidate match: IDENTIFIER -> 'x''}
+  TraceStep{index=4, line=1, column=5, char='x', lexeme='x', message='Final token selected: IDENTIFIER -> 'x''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=5, line=1, column=6, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='=', message='Candidate match: ASSIGN -> '=''}
+  TraceStep{index=6, line=1, column=7, char='=', lexeme='=', message='Final token selected: ASSIGN -> '=''}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme=' ', message='Candidate match: WHITESPACE -> ' ''}
+  TraceStep{index=7, line=1, column=8, char=' ', lexeme=' ', message='Skipping token: WHITESPACE'}
+  TraceStep{index=8, line=1, column=9, char='@', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=8, line=1, column=9, char='@', lexeme='@', message='Lexical error: Character '@' is not allowed by the language alphabet'}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme='', message='Starting token recognition at this position'}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme=';', message='Candidate match: SEMICOLON -> ';''}
+  TraceStep{index=9, line=1, column=10, char=';', lexeme=';', message='Final token selected: SEMICOLON -> ';''}
+  TraceStep{index=10, line=1, column=11, char=EOF, lexeme='', message='Reached end of input'}
+
+]]></system-out>
+  </testcase>
+</testsuite>
